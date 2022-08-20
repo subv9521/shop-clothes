@@ -10,6 +10,14 @@ ul {
     list-style: none;
 }
 
+a {
+    color: unset;
+}
+
+input {
+    outline: none;
+}
+
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
@@ -75,11 +83,11 @@ body {
 }
 
 .header__navbar-list li:hover,
-.header__logo,
-.hd-action__cart-icon,
-.main-categories-img-item,
-.hd-action__login,
-.review-star {
+.header__logo:hover,
+.hd-action__cart-icon:hover,
+.main-categories-img-item:hover,
+.hd-action__login:hover,
+.review-star:hover {
     cursor: pointer;
 }
 

@@ -34,6 +34,7 @@
     font-size: 2rem;
     line-height: 2.4rem;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 
@@ -51,6 +52,7 @@
 }
 
 .hd-action__search input {
+    height: 100%;
     border: none;
     color: var(--dark-gray-color);
     background-color: transparent;
@@ -84,9 +86,6 @@
     left: 0;
     bottom: 0;
     z-index: 1;
-    /* display: none; */
-    /* align-items: center; */
-    /* justify-content: center; */
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -201,6 +200,7 @@
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 
 }
 
@@ -223,7 +223,6 @@
     list-style: none;
     margin-top: 20px;
     overflow-x: auto;
-
 }
 
 .main-categories-img-item {

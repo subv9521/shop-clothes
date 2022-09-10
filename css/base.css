@@ -25,11 +25,9 @@ html {
     box-sizing: border-box;
 }
 
-body {
-}
-
 :root {
     --button-color: #274156;
+    --btn-hover-color: #254f6e;
     --text-color: #1D1C1F;
     --boder-color: #E3E3E3;
     --gray-color: #F5F5F5;
@@ -37,7 +35,6 @@ body {
     --white-color: #FFFFFF;
     --start-gold-color: #F2C94C;
 }
-
 
 .tittle-wrap {
     overflow: hidden;
@@ -91,9 +88,6 @@ body {
     cursor: pointer;
 }
 
-
-
-
 /* class hay dùng */
 
 .d-flex {
@@ -105,6 +99,10 @@ body {
 }
 .justify-content-between {
     justify-content: space-between;
+}
+
+.space-section {
+    margin-top: 60px;
 }
 
 
